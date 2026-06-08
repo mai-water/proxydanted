@@ -48,15 +48,14 @@ systemctl restart danted
 
 echo
 echo -e "\033[1;32m========================================"
+echo
 echo "        Ваши прокси готовы!"
+echo
 echo "========================================"
 echo
-echo "SOCKS5://$USER:$PASS@$IP:$PORT"
 echo
-echo "IP       : $IP"
-echo "PORT     : $PORT"
-echo "USERNAME : $USER"
-echo "PASSWORD : $PASS"
+echo "SOCKS5://$IP:$PORT:$USER:$PASS"
+echo
 echo
 echo "========================================"
 echo -e "\033[0m"
